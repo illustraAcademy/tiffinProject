@@ -1,0 +1,14 @@
+/* Classes */
+.ubuntu-font-1{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.ubuntu-font-2 {
+    font-family: 'Ubuntu';
+    font-style: italic;
+}
+
+.ubuntu-font-3 {
+    font-family: 'Ubuntu', sans-serif;
+}

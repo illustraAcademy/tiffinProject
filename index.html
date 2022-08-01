@@ -4,10 +4,21 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="icons/favicon.ico">
     <title>Tiffin Blog</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light">
@@ -114,29 +125,54 @@
       </ul>
     </div>
     <div class="container-fluid border bg-light">
-      <p class="fs-1 text-center">Cuando el usuario compromete la seguridad de un sistema informático: ingeniería social, el arte del engaño</p>
-      <p class="fs-5">Por: Jonatan Ardón</p>
+      <p class="fs-1 text-center ubuntu-font-1">Cuando el usuario compromete la seguridad de un sistema informático: ingeniería social, el arte del engaño</p>
+      <p class="fs-5 ubuntu-font-2">Por: Jonatan Ardón</p>
       <div style="height: 3rem;">
       </div>
-      <p class="fs-2"><strong>Preguntas de investigación</strong></p>
-      <p class="fs-3">¿Cómo proteger la integridad de un sistema informático cuando los usuarios son susceptibles a comprometer los protocolos de seguridad?</p>
-      <p class="fs-3">¿Por qué las personas caen en engaños tan fácilmente?</p>
-      <p class="fs-3">¿La cantidad de personas engañadas depende de la cultura y nivel educativo?</p>
-      <p class="fs-2"><strong>Declaración de tesis</strong></p>
-      <p class="fs-3">En América latina, el tema de la ingeniería social no es ampliamente discutido pese a su abundancia. Una mejor educación puede ayudar a una disminución de víctimas de ingeniería social.</p>
-      <p class="fs-1 text-center"><strong>Introducción</strong></p>
+      <p class="fs-2 ubuntu-font-1"><strong>Preguntas de investigación</strong></p>
+      <p class="fs-3 ubuntu-font-3">¿Cómo proteger la integridad de un sistema informático cuando los usuarios son susceptibles a comprometer los protocolos de seguridad?</p>
+      <p class="fs-3 ubuntu-font-3">¿Por qué las personas caen en engaños tan fácilmente?</p>
+      <p class="fs-3 ubuntu-font-3">¿La cantidad de personas engañadas depende de la cultura y nivel educativo?</p>
+      <p class="fs-2 ubuntu-font-1"><strong>Declaración de tesis</strong></p>
+      <p class="fs-3 ubuntu-font-3">En América latina, el tema de la ingeniería social no es ampliamente discutido pese a su abundancia. Una mejor educación puede ayudar a una disminución de víctimas de ingeniería social.</p>
+      <p class="fs-1 text-center ubuntu-font-1"><strong>Introducción</strong></p>
       <p class="fs-2" id="intro-1">Definición de ingeniería social</p>
-      <p class="fs-3">Según Joe Gray en su libro <em>Practical social engineering: a primer for the ethical hacker</em> “la ingeniería social es cualquier ataque que tome ventaja de la psicología humana para influenciar a un objetivo, haciéndolos que hagan algo [que nos convenga] o que provean algún tipo de información.” (Joe Grey, 2021) </p>
-      <div class="text-center">
+      <p class="fs-3 ubuntu-font-3">Según Joe Gray en su libro <em>Practical social engineering: a primer for the ethical hacker</em> “la ingeniería social es cualquier ataque que tome ventaja de la psicología humana para influenciar a un objetivo, haciéndolos que hagan algo [que nos convenga] o que provean algún tipo de información.” (Joe Grey, 2021) </p>
+      <div class="text-center" style="padding: 5rem 0 5rem 0;">
         <img src="images/social-engineering.png" alt="">
         <p class="text-end"><a href="https://www.flaticon.com/free-icons/social-engineering" title="social engineering icons">Social engineering icons created by Freepik - Flaticon</a></p>
       </div>
-      <p class="fs-3">En muchos lugares se le conoce a la ingeniería social como el arte del engaño. En países desarrollados la ingeniería social funciona de un modo diferente al modo en que se utiliza en países en vías de desarrollo. En Canadá, por ejemplo, se puede utilizar la ingeniería social para engañar a una persona a proveer información personal a cambio de un supuesto <em>smartphone</em> o a cambio de una “promoción”. En este caso “Los estafadores intentan engañar a los usuarios para que compartan información sensible clonando números y/o pretendiendo llamar de una fuente segura y con credibilidad” (Chelsey Rajzer, 2021)</p>
-      <div class="text-center">
+      <p class="fs-3 ubuntu-font-3">En muchos lugares se le conoce a la ingeniería social como el arte del engaño. En países desarrollados la ingeniería social funciona de un modo diferente al modo en que se utiliza en países en vías de desarrollo. En Canadá, por ejemplo, se puede utilizar la ingeniería social para engañar a una persona a proveer información personal a cambio de un supuesto <em>smartphone</em> o a cambio de una “promoción”. En este caso “Los estafadores intentan engañar a los usuarios para que compartan información sensible clonando números y/o pretendiendo llamar de una fuente segura y con credibilidad” (Chelsey Rajzer, 2021)</p>
+      <div class="text-center" style="padding: 5rem 0 5rem 0;">
         <img src="images/geography.png" alt="">
         <p class="text-end"><a href="https://www.flaticon.com/free-icons/geography" title="geography icons">Geography icons created by Roundicons Premium - Flaticon</a></p>
       </div>
-      <p class="fs-3">En latino América la ingeniería social funciona un poco diferente. Quizá se haya intentado engañar a alguien en latino América de un modo similar al que sucede en países desarrollados, pero no siempre es efectivo por el simple hecho de que en latino América estamos acostumbrados a los engaños por lo que los ingenieros sociales utilizan otras técnicas para engañar a los usuarios.</p>
+      <p class="fs-3 ubuntu-font-3">En latino América la ingeniería social funciona un poco diferente. Quizá se haya intentado engañar a alguien en latino América de un modo similar al que sucede en países desarrollados, pero no siempre es efectivo por el simple hecho de que en latino América estamos acostumbrados a los engaños por lo que los ingenieros sociales utilizan otras técnicas para engañar a los usuarios.</p>
+      <p class="fs-3 ubuntu-font-3">Todos hemos pasado por una situación en la que nos quieren engañar o extorsionar. Todos tenemos un amigo o un conocido al cual le han robado información o datos bancarios por medio de engaños o presión psicológica. Muchas veces el miedo y la incertidumbre nos hace actuar de manera errónea.</p>
+      <p class="fs-3 ubuntu-font-3">Cuando se trata de sistemas informáticos, la mayoría de las personas se refieren a su robo de información como “hackeo del sistema”, se escucha algo así como: “me hackearon mi Facebook” o “me hackearon el WhatsApp “cuando en realidad esos sistemas son lo suficientemente seguros como para evitar fácilmente una hackeo directo. No se hackeó al sistema informático, se hackeó a la persona que lo utilizaba.</p>
+      <p class="fs-3 ubuntu-font-3">Si una persona es lo suficientemente hábil como para hackear un sistema de encriptado tan complejo como lo es Facebook, lo último que querría hacer esta persona es hacker el Facebook de alguien solo para gastar una broma. Esas personas contactan directamente a Meta y ofrecen sus servicios a cambio de cuantiosas sumas de dinero.</p>
+      <div class="container text-center" style="padding: 5rem 0 5rem 0;">
+        <div class="row">
+          <div class="col-lg-4 col-md-2">
+            <img style="width: 15rem;" src="images/facebook.png" alt="facebook-icon">
+            <p class="text-end"><a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a></p>
+          </div>
+          <div class="col-lg-4 col-md-2">
+            <img style="width: 15rem;" src="images/twitter.png" alt="twitter-icon">
+            <p class="text-end"><a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Pixel perfect - Flaticon</a></p>
+          </div>
+          <div class="col-lg-4 col-md-2">
+            <img style="width: 15rem;" src="images/tik-tok.png" alt="tiktok-icon">
+            <p class="text-end"><a href="https://www.flaticon.com/free-icons/tiktok" title="tiktok icons">Tiktok icons created by Freepik - Flaticon</a></p>
+          </div>
+        </div>
+      </div>
+      <p class="fs-3 ubuntu-font-3">Una experiencia que me tocó escuchar mientras hacia mi investigación es la de una niña que trabajaba para un pequeño negocio en México. El negocio es una farmacia y la niña estaba encargado únicamente de atender y realizar labores de limpieza. Generalmente la dueña esta allí pero un día ella salió, cosa que creo que los ingenieros sociales sabían, y aprovecharon para llamar a la farmacia. Con mucha presión le dijeron a la niña que llamaban del banco por una deuda sin pagar y que tenían retenida a la dueña de la farmacia, si la niña no depositaba cierta cantidad de dinero en las próximas horas ellos meterían a la dueña de la farmacia a la cárcel sin derecho a fianza.</p>
+      <div class="text-center" style="padding: 5rem 0 5rem 0;">
+        <img src="images/phishing.png" alt="phising-image">
+        <p class="text-end"><a href="https://www.flaticon.com/free-icons/scam" title="scam icons">Scam icons created by Freepik - Flaticon</a></p>
+      </div>
+      <p class="fs-3 ubuntu-font-3">La niña, motivada por el miedo, tomó el dinero de la caja y lo depositó, solo para darse cuenta unas horas después que había sido victima de una estafa. Casos como este se ven día con día en latino América y alrededor del mundo, nuestra pregunta es: ¿Cómo evitar estos ataques en latino América?</p>
     </div>
 
     <!-- References -->
@@ -145,22 +181,22 @@
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="container">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p id="ref-1">Joe Grey. (2021). Practical social engineering. 245 8th Street, San Francisco, CA 94103: No Starch Press, Inc.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="container">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p id="ref-2">EDDIE HUBAND. (2021). Telus responds to phone scams. 2022, de Burns Lakes District News Sitio web: https://www.burnslakelakesdistrictnews.com/news/telus-responds-to-phone-scams/</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="container">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p id="ref-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="container">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p id="ref-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
         </div>
       </div>
